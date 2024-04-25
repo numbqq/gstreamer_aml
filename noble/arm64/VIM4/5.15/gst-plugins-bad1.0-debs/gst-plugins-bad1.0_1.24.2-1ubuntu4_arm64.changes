@@ -1,0 +1,72 @@
+Format: 1.8
+Date: Sun, 28 Apr 2024 17:33:06 +0800
+Source: gst-plugins-bad1.0
+Binary: gir1.2-gst-plugins-bad-1.0 gstreamer1.0-opencv gstreamer1.0-plugins-bad gstreamer1.0-plugins-bad-apps libgstreamer-opencv1.0-0 libgstreamer-plugins-bad1.0-0 libgstreamer-plugins-bad1.0-dev
+Built-For-Profiles: noudeb
+Architecture: source arm64
+Version: 2:1.24.2-1ubuntu4
+Distribution: noble
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Nick Xie <nick@khadas.com>
+Description:
+ gir1.2-gst-plugins-bad-1.0 - GObject introspection data for the GStreamer libraries from the "
+ gstreamer1.0-opencv - GStreamer OpenCV plugins
+ gstreamer1.0-plugins-bad - GStreamer plugins from the "bad" set
+ gstreamer1.0-plugins-bad-apps - GStreamer helper programs from the "bad" set
+ libgstreamer-opencv1.0-0 - GStreamer OpenCV libraries
+ libgstreamer-plugins-bad1.0-0 - GStreamer libraries from the "bad" set
+ libgstreamer-plugins-bad1.0-dev - GStreamer development files for libraries from the "bad" set
+Changes:
+ gst-plugins-bad1.0 (2:1.24.2-1ubuntu4) noble; urgency=medium
+ .
+   * Apply Amlogic patches
+Checksums-Sha1:
+ 9d956758a73d7baf94bf08d1bcc07da9a96260ce 4969 gst-plugins-bad1.0_1.24.2-1ubuntu4.dsc
+ cdfb537c441b10199e7f499775aeaad49466b6da 50956 gst-plugins-bad1.0_1.24.2-1ubuntu4.debian.tar.xz
+ 3c873b2ac360cbe619ff15c3a1fae4b3b58ff612 92476 gir1.2-gst-plugins-bad-1.0_1.24.2-1ubuntu4_arm64.deb
+ bdae4fe8b3d1f69f9c270cc08d28ec2f4c2d63fa 41279 gst-plugins-bad1.0_1.24.2-1ubuntu4_arm64.buildinfo
+ cb7107ae811915b68d32a6142452013b61b3a90c 938534 gstreamer1.0-opencv-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ 8cf33ce18127fd42383c065af931c209cbc3a801 94232 gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
+ b22d3e854572b5c6859203e5a9d849203cf19b23 23506 gstreamer1.0-plugins-bad-apps-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ 26ad17dfef7f125ab4f2c710cebe42ddf5b1ba70 29194 gstreamer1.0-plugins-bad-apps_1.24.2-1ubuntu4_arm64.deb
+ c224480dd19f3e090319f4130e727fa126f4a62f 9844182 gstreamer1.0-plugins-bad-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ 8952ca2d5b83aaa418458cd8d2793b29b8a14eef 2829438 gstreamer1.0-plugins-bad_1.24.2-1ubuntu4_arm64.deb
+ e960a2f6d6f17ee85b019afcfec45d58a0cf681d 79086 libgstreamer-opencv1.0-0-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ b6a012142f9aee2c42e55a9f315672cf67aeb53d 25646 libgstreamer-opencv1.0-0_1.24.2-1ubuntu4_arm64.deb
+ aacf5c4cb882f37d9d8065846bb314d887a20751 2881378 libgstreamer-plugins-bad1.0-0-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ b9a4b31d0238156842ef633ef91af35f46ed721b 770852 libgstreamer-plugins-bad1.0-0_1.24.2-1ubuntu4_arm64.deb
+ 738f7f49ee6db5c18452c0dfe06e2d340e36f14e 303626 libgstreamer-plugins-bad1.0-dev_1.24.2-1ubuntu4_arm64.deb
+Checksums-Sha256:
+ 3f88691528726bf2650f83552c35cedd069dc936108005d345eb6923b6bfcecb 4969 gst-plugins-bad1.0_1.24.2-1ubuntu4.dsc
+ 75a5a8ea79ded3ede14eb92db4867bc241242f2b5ff909d5e4e7ebf45eefca35 50956 gst-plugins-bad1.0_1.24.2-1ubuntu4.debian.tar.xz
+ 65de88f468a42c501d02fc247af5d330a75266fd57d203b422473713cf253216 92476 gir1.2-gst-plugins-bad-1.0_1.24.2-1ubuntu4_arm64.deb
+ cdcf4da4f44538ef6a83b767c3211a618767fc333ba051124b26f7971405ca9b 41279 gst-plugins-bad1.0_1.24.2-1ubuntu4_arm64.buildinfo
+ 632ca6904f407a18c926915d16b43f93f78eccc5322e9b55af08ee01c9609bbf 938534 gstreamer1.0-opencv-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ 249fea6d1bd12c3883db94b98329756cc93d00ba7a97f3cad907b5804e95f616 94232 gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
+ 6447cd2937bba2d026f0bcae9c42bcd817ddbe465e99055c184350a5cf7af9bc 23506 gstreamer1.0-plugins-bad-apps-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ 6dd2a10ba684bbd1c0d5ebfd125733f336c074d77f4286b12240d0870907165d 29194 gstreamer1.0-plugins-bad-apps_1.24.2-1ubuntu4_arm64.deb
+ b4f0a589128ab4d11185e52963c812ba1f85515eb4797d199f93ae312020ace3 9844182 gstreamer1.0-plugins-bad-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ a81f5dd8f46741eaa38e9e97a2d45bfa0c7bd60215fe71a5a64bc5a2baee32d7 2829438 gstreamer1.0-plugins-bad_1.24.2-1ubuntu4_arm64.deb
+ d4c408bed874cc102157c6d970f4cc4882bb777518d26b55fbd56ff21d8bc763 79086 libgstreamer-opencv1.0-0-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ 630e64f1f60bc4c3c56b1cd5b05430398c0f4a41b3b189fdaf533457a28169b6 25646 libgstreamer-opencv1.0-0_1.24.2-1ubuntu4_arm64.deb
+ 032fbf4fa19e64fdd1a02bee67518afbd067e8dfb00c413df67833054be41e51 2881378 libgstreamer-plugins-bad1.0-0-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ a62c780c938cc40543ae0821efff84873236f1ff9f052dfefb8b9f353bd5f2ad 770852 libgstreamer-plugins-bad1.0-0_1.24.2-1ubuntu4_arm64.deb
+ 6f514a88011ac12d81e9786cfff2c1092aee735720e9f6e57962531318f8e101 303626 libgstreamer-plugins-bad1.0-dev_1.24.2-1ubuntu4_arm64.deb
+Files:
+ 511f6b3a356f1f1e728c81314f775a00 4969 libs optional gst-plugins-bad1.0_1.24.2-1ubuntu4.dsc
+ 98a9382a0be9a9ec67e308b8579fd05e 50956 libs optional gst-plugins-bad1.0_1.24.2-1ubuntu4.debian.tar.xz
+ 01de320b3eac554a99a0d94ac59a4b6e 92476 introspection optional gir1.2-gst-plugins-bad-1.0_1.24.2-1ubuntu4_arm64.deb
+ e12c6bec60e6f535059dbfa5a79d2924 41279 libs optional gst-plugins-bad1.0_1.24.2-1ubuntu4_arm64.buildinfo
+ 6c40e7c6601729ce791291012465c459 938534 debug optional gstreamer1.0-opencv-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ bc21d033f3e8dddbffc175a42acbd2dc 94232 libs optional gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
+ 659e742e6413ccf366ded23911b97c03 23506 debug optional gstreamer1.0-plugins-bad-apps-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ 529bf389d015f171e0241f8988aa2a26 29194 utils optional gstreamer1.0-plugins-bad-apps_1.24.2-1ubuntu4_arm64.deb
+ fcdbbcbeee01e59df0795ec4d8fbd08e 9844182 debug optional gstreamer1.0-plugins-bad-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ affe1c1a69ade010e8da48f13b40f3d8 2829438 libs optional gstreamer1.0-plugins-bad_1.24.2-1ubuntu4_arm64.deb
+ 97e326c43bb19593ac3a79e4a2d6561b 79086 debug optional libgstreamer-opencv1.0-0-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ e347bc8beb9f4ba08564253db7d0177e 25646 libs optional libgstreamer-opencv1.0-0_1.24.2-1ubuntu4_arm64.deb
+ 652ca8be4bc09ca5c2d46642ff330009 2881378 debug optional libgstreamer-plugins-bad1.0-0-dbgsym_1.24.2-1ubuntu4_arm64.ddeb
+ cdcbb58955a1ef6ff54f407f5a78aa0d 770852 libs optional libgstreamer-plugins-bad1.0-0_1.24.2-1ubuntu4_arm64.deb
+ df12396c9a3f9bb182bb179c75f43e57 303626 libdevel optional libgstreamer-plugins-bad1.0-dev_1.24.2-1ubuntu4_arm64.deb
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
