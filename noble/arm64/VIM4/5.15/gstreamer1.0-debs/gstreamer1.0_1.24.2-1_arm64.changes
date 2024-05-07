@@ -1,0 +1,53 @@
+Format: 1.8
+Date: Thu, 25 Apr 2024 16:12:18 +0800
+Source: gstreamer1.0
+Binary: gir1.2-gstreamer-1.0 gstreamer1.0-tools libgstreamer1.0-0 libgstreamer1.0-dev
+Built-For-Profiles: noudeb
+Architecture: source arm64
+Version: 2:1.24.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Changed-By: Nick Xie <nick@khadas.com>
+Description:
+ gir1.2-gstreamer-1.0 - GObject introspection data for the GStreamer library
+ gstreamer1.0-tools - Tools for use with GStreamer
+ libgstreamer1.0-0 - Core GStreamer libraries and elements
+ libgstreamer1.0-dev - GStreamer core development files
+Changes:
+ gstreamer1.0 (2:1.24.2-1) unstable; urgency=medium
+ .
+   * Add amlogic patches
+Checksums-Sha1:
+ 55ae7012b15117cef20c5b822b88cc6e472dc9ac 2165 gstreamer1.0_1.24.2-1.dsc
+ ceab720e2fbf0f1b0ca5fb0e66ec5db1d0db0489 52864 gstreamer1.0_1.24.2-1.debian.tar.xz
+ 182231cb9ae9decd94a8f04f56f84c44303931bd 90982 gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
+ 166388c3cc5061e96583a7b184d8d491e265ae7d 136806 gstreamer1.0-tools-dbgsym_1.24.2-1_arm64.ddeb
+ fbf244289e8ee461f3de06743bdfa4f154e1f099 68408 gstreamer1.0-tools_1.24.2-1_arm64.deb
+ a36520e8a1e8dec39054229971d2a18b7b9deaeb 11438 gstreamer1.0_1.24.2-1_arm64.buildinfo
+ ca2055a1228cd77e51a01372a2893c1e790cfa72 5210720 libgstreamer1.0-0-dbgsym_1.24.2-1_arm64.ddeb
+ d295faef2e52e1059c892eaed7b2bfe5ef832df4 1413586 libgstreamer1.0-0_1.24.2-1_arm64.deb
+ 7908581f672fe52909602176bd1dcbc249c18179 14300 libgstreamer1.0-dev-dbgsym_1.24.2-1_arm64.ddeb
+ 262b64b59e5b108551caab8669d7e7b31e580740 526834 libgstreamer1.0-dev_1.24.2-1_arm64.deb
+Checksums-Sha256:
+ 261a141e75825241685c64e32e5158088244d674d468520c264ee809561bfe92 2165 gstreamer1.0_1.24.2-1.dsc
+ 2939d7ab6e7722820c36b90ff53d47bfea46e9454f8c83fe540c20dcb6efc4ad 52864 gstreamer1.0_1.24.2-1.debian.tar.xz
+ 5b55ccf776e69fedbba963fc2b2c3aa3d30af539bf5f536dd79a1e470e12c339 90982 gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
+ 90346b7799dfce0c2a7cca63de2658152523ffd4c6920b61c9b053093afca38d 136806 gstreamer1.0-tools-dbgsym_1.24.2-1_arm64.ddeb
+ 840b30b555ba325006dc104dbd460e028b15be30f4428e6f50720b80287099a6 68408 gstreamer1.0-tools_1.24.2-1_arm64.deb
+ 6eaf68fa617876a5c35f0b608fa70dad2e5aa45fa30c0a4a0e54bbc690db340c 11438 gstreamer1.0_1.24.2-1_arm64.buildinfo
+ d9b7994b17fea0abd980442e63a1d5ae9d4b20c3f39f8154840d8bbdb25ac20e 5210720 libgstreamer1.0-0-dbgsym_1.24.2-1_arm64.ddeb
+ 783c6563d3fa19017377b1b82aed9a30158815e2c1c4e1290dae6b5eb42e69c5 1413586 libgstreamer1.0-0_1.24.2-1_arm64.deb
+ b7e2a685167a5478513192f274a30312ac9352d30d8fc0403236f72f099db853 14300 libgstreamer1.0-dev-dbgsym_1.24.2-1_arm64.ddeb
+ 02749d943f8b46c865555f9c6365aaec62ee08ed81ee7dadcd438773041d7bbd 526834 libgstreamer1.0-dev_1.24.2-1_arm64.deb
+Files:
+ 101f29e886c9873844495f88351db64c 2165 libs optional gstreamer1.0_1.24.2-1.dsc
+ 3cee7e4fc62bb1bb852a3e5877a2fe46 52864 libs optional gstreamer1.0_1.24.2-1.debian.tar.xz
+ 6d5c7d91c1c07884d2e1db77a1f873f2 90982 introspection optional gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
+ e7e3fdc270fcf8d252e70eabea49bd25 136806 debug optional gstreamer1.0-tools-dbgsym_1.24.2-1_arm64.ddeb
+ 27276831e6d2c589d5a1a18a111fc6ef 68408 utils optional gstreamer1.0-tools_1.24.2-1_arm64.deb
+ 95edc56a7f4cc36f4e4c8a6167d689de 11438 libs optional gstreamer1.0_1.24.2-1_arm64.buildinfo
+ 4094be4b19ec5432cab268bc7738b851 5210720 debug optional libgstreamer1.0-0-dbgsym_1.24.2-1_arm64.ddeb
+ 37ff2f621450dbefbbee4c3f402bf14d 1413586 libs optional libgstreamer1.0-0_1.24.2-1_arm64.deb
+ 7a235eb9bbd2728413ef085832cbe753 14300 debug optional libgstreamer1.0-dev-dbgsym_1.24.2-1_arm64.ddeb
+ 014f5e8cb2926c04a990b715b701fb21 526834 libdevel optional libgstreamer1.0-dev_1.24.2-1_arm64.deb
